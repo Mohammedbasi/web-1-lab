@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <!-- <form action="/action_page.php" target="_self" method="post" autocomplete="on" >
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname" >
+        <br>
+        <br>
+        <label for="cars">Choose a car:</label>
+        <select id="cars" name="cars" multiple>
+            <option value="volvo">Volvo</option>
+            <option value="saab" selected>Saab</option>
+            <option value="fiat">Fiat</option>
+        </select>
+        <br>
+        <br>
+        <textarea name="message" rows="20" cols="50">
+            Enter your message
+        </textarea>
+        <br>
+        <br>
+        <button type="button" onclick="alert('hello Gaza!')">Click me!</button>
+    </form> -->
+
+    <!-- <form action="">
+      <fieldset>
+        <legend>Personal info</legend>
+        <label for="fname">First Name</label><br />
+        <input type="text" id="fname" name="fname" value="Mohammed" /><br />
+        <label for="lname">Last Name</label><br />
+        <input type="text" id="lname" name="lname" value="Basil" /><br /><br />
+        <button type="submit">Submit</button>
+      </fieldset>
+    </form> -->
+
+    <form action="">
+      <label for="fname">First Name</label><br />
+      <input type="text" id="fname" name="fname" value="Mohammed" readonly />
+      <br />
+      <label for="lname">Last Name</label><br />
+      <input type="text" id="lname" name="lname" value="basil" disabled />
+      <br />
+      <label for="password">Password</label><br />
+      <input type="password" id="password" name="password" autofocus required placeholder="Enter password" size="30" maxlength="5">
+      <br><br>
+
+      <p>choose your favorite web language: </p>
+
+      <input type="radio" id="html" name="fav_language" value="HTML">
+      <label for="html">HTML</label><br>
+
+      <input type="radio" id="css" name="fav_language" value="CSS">
+      <label for="css">CSS</label><br>
+
+      <input type="radio" id="js" name="fav_language" value="JS">
+      <label for="js">JS</label><br><br>
+
+      <input type="checkbox" id="v1" name="v1" value="Bike">
+      <label for="v1">Bike</label><br>
+
+      <input type="checkbox" id="v2" name="v2" value="Car">
+      <label for="v2">Car</label><br>
+
+      <input type="checkbox" id="v3" name="v3" value="Boat">
+      <label for="v3">Boat</label><br><br>
+
+      <input type="button" onclick="alert('Hello Gaza')" value="Click me"><br><br>
+
+      <label for="favColor">Select your color: </label>
+      <input type="color" id="favColor" name="favColor"> <br> <br>
+
+      <label for="birthday">Birthday:</label>
+      <input type="date" id="birthday" name="birthday"><br> <br>
+
+      <label for="datemax">Enter a data before 1980-01-01</label>
+      <input type="date" id="datemax" name="datemax" max="1979-12-31">
+        <br><br>
+      <label for="datemin">Enter a data after 2000-01-01:</label>
+      <input type="date" id="datemin" name="datemin" min="2000-01-02">
+        <br><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email">
+      <br>
+      <br>
+      <input type="image" src="img1.PNG" alt="submit" width="48" height="48"><br><br>
+
+      <label for="myfile">Select a file:</label>
+      <input type="file" id="myfile" name="myfile" multiple><br><br>
+
+      <input type="hidden" name="hiddenInput"><br><br>
+
+      <label for="quantity">Quantity (between 1 and 5)</label>
+      <input type="number" id="quantity" name="quantity" min="1" max="5">
+
+      <br><br>
+
+      <label for="vol">Volume (between 0 and 50): </label>
+      <input type="range" id="vol" name="vol" min="0" max="50">
+
+      <input type="submit" value="Save"> 
+      <input type="reset" value="Reset">
+    </form>
+  </body>
+</html>
