@@ -1,0 +1,48 @@
+body {
+  height: 2000px;
+}
+
+.static {
+  position: static;
+}
+
+.relative {
+  position: relative;
+  border: 1px solid green;
+  left: 30px;
+  margin-top: 50px;
+  max-width: 500px;
+  margin-bottom: 50px;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  border: 2px solid #73ad21;
+}
+
+.relative1 {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  border: 1px solid green;
+  margin-bottom: 50px;
+}
+
+.absolute{
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 1px solid yellowgreen;
+}
+
+.sticky{ 
+    position: sticky;
+    top: 0;
+    background-color: green;
+    border: 2px solid #4CAF50;
+}

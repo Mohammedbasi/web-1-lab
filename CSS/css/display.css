@@ -1,0 +1,14 @@
+li{
+    display: inline;
+}
+
+span{
+    border: 1px solid green;
+    display: block;
+    height: 100px;
+}
+
+a{
+    display: block;
+    visibility: hidden;
+}

@@ -1,0 +1,82 @@
+
+
+/* single line comment*/
+
+/*
+body{
+    background-color: lightblue;
+}
+h1{
+    color: navy;
+    font-size: 50px;
+    text-align: center;
+}
+
+h2{
+    color: navy;
+}
+    */
+
+    /* rgb (red, green, blue) 0 -> 255 
+       rgba(red, green, blue, alpha)
+    */
+
+    /*
+    #RRGGBB  -> 00 -> ff
+    */
+/* h1{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255,0 ,0);
+    text-align: center;
+    border: 1px solid tomato;
+} */
+
+/*
+p{
+    color: #b4b4b4;
+    background-color: #0f0; 
+    text-align: center;
+}
+*/
+
+/* body{
+    background: #000 url('../images/welcom-bg.png') no-repeat right top;
+     background-color: lightblue; 
+     background-image: url('../images/welcom-bg.png'); 
+     background-repeat: no-repeat; 
+     background-repeat: no-repeat; 
+     background-position: left top; 
+     background-attachment: scroll;
+} */
+
+/* h1{
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: white;
+} */
+
+p.one{
+    border-style: dotted;
+    border-width: thin;
+}
+
+p.two{
+    border-style: dashed;
+    border-width: 5px 10px 15px 20px;
+    border-color: red green greenyellow blue;
+}
+
+p.three{
+    /*border-top-style: solid;
+    border-bottom-style: dashed;
+    border-left-style: double;
+    border-right-style: groove;
+    *//*border-left: 6px solid blue;
+    border-top: 6px dashed red;
+    */border: 2px solid blue;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}

@@ -1,0 +1,27 @@
+
+
+.m1{
+    border: 1px solid powderblue;
+    /* margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px; */
+    margin: 50px;
+}
+
+.m2{
+    border: 1px solid powderblue;
+    background-color: palevioletred;
+    max-width: 600px;
+    margin-left: 100px;
+    margin-top: 50px;
+    padding: 50px 100px 50px 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    box-sizing: border-box;
+}
+
+/* p{
+    margin: inherit;
+} */
+

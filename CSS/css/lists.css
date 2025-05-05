@@ -1,0 +1,32 @@
+
+ul{
+    /* list-style-type: square;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0; */
+    list-style: none;
+    border-left: 3px solid red;
+    margin: 0;
+    padding: 0;
+
+}
+
+ul li{
+    /* border: 1px solid black; */
+    margin-left: 5px;
+}
+
+ol{
+    list-style-type: lower-alpha;
+    list-style-position: inside;
+    background-color: #ff9999;
+    padding: 20px;
+}
+
+ol li{
+    /* border: 1px solid black; */
+    background-color: #cce5e5;
+    color: darkred;
+    padding: 5px;
+    margin-left: 35px;
+}
