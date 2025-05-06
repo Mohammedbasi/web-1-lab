@@ -1,0 +1,28 @@
+
+p::first-line{
+    color: red;
+    font-variant: small-caps;
+}
+
+p::first-letter{
+    color: blue;
+    font-size: xx-large;
+}
+
+h1::before{
+    content: url('../images/img2.PNG');
+}
+
+h1::after{
+    content: url('../images/img2.PNG');
+}
+
+::marker{
+    color: blue;
+    font-size: 23px;
+}
+
+::selection{
+    color: blue;
+    background: yellow;
+}
