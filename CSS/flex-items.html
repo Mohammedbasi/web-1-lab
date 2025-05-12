@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex Items</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .flex-container {
+        padding: 8px;
+        background-color: aqua;
+        display: flex;
+        /* justify-content: center; */
+        align-items: stretch;
+        height: 200px;
+      }
+      .flex-item {
+        padding: 50px;
+        background-color: gray;
+        margin-right: 3px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex-container">
+      <!-- <div class="flex-item" style="order: 4;">1</div>
+      <div class="flex-item" style="order: 1;">2</div>
+      <div class="flex-item" style="order: 2;">3</div>
+      <div class="flex-item" style="order: 3;">4</div> -->
+
+      <!-- <div class="flex-item" style="flex-grow: 1;">1</div>
+      <div class="flex-item" style="flex-grow: 1;">2</div>
+      <div class="flex-item" style="flex-grow: 8;">3</div>
+      <div class="flex-item" style="flex-grow: 1;">4</div> -->
+
+      <!-- <div class="flex-item" style="">1</div>
+      <div class="flex-item" style="">2</div>
+      <div class="flex-item" style="flex-basis: 200px;">3</div>
+      <div class="flex-item" style="">4</div> -->
+
+      <div class="flex-item" style="">1</div>
+      <div class="flex-item" style="align-self: flex-start;">2</div>
+      <div class="flex-item" style="align-self: center;">3</div>
+      <div class="flex-item" style="align-self: flex-end;">4</div>
+    </div>
+  </body>
+</html>

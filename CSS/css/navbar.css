@@ -8,62 +8,323 @@
   clear: both;
 }
 
-body{
-    height: 2000px;
+/* start header css */
+.header{
+  background-image: url('../images/web88.jpg');
+  background-repeat: no-repeat;
+  min-height: 90vh;
+  background-size: cover !important;
+  position: relative;
 }
-/* start nav css */
-.nav{
-    background-color: #333;
-    padding: 30px 15px;
-    line-height: 50%;
-    position: sticky;
-    top: 0;
-    z-index: 5;
+.header .over-lay{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
 }
-
-.nav .logo{
-    float: left;
-}
-
-.nav .logo h3{
-    color: #fff;
-    font-size: 30px;
-    font-weight: normal;
-}
-
-.nav .logo .logoName{
-    color: orange;
-}
-.nav .logo h3::first-letter{
-    padding: 0px 5px;
-    background-color: #696969;
-    border: 3px solid #fff;
-    font-size: 30px;
-}
-.nav .item{
-    float: right;
+.header .over-lay .container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
-.nav .item ul{
-    list-style-type: none;
+.header .over-lay .container .item1{
+  align-self: center;
+  text-align: center;
+}
+.header .over-lay .container .item1 h1{
+  font-size: 40px;
+  color: orangered;
+  margin-bottom: 10px;
+}
+.header .over-lay .container .item1 h1 span{
+  color: orange;
 }
 
-.nav .item ul li{
-    display: inline-block;
+.header .over-lay .container .item1 p{
+  font-size: 23px;
+  font-weight: 500px;
+  color: orangered;
 }
 
-.nav .item ul li:not(:first-child){
-    margin-left: 20px;
-}
-
-.nav .item ul li a{
-    text-decoration: none;
-    color: #fff;
+@media (min-width:320px) and (max-width:991px){
+  .header .over-lay .container .item1 h1{
+    font-size: 20px;
+  }
+  .header .over-lay .container .item1 p{
     font-size: 18px;
-    padding: 15px;
+  }
+}
+/* end header css */
+
+/* start nav css */
+.nav {
+  background-color: #333;
+  padding: 30px 15px;
+  line-height: 50%;
+  position: sticky;
+  top: 0;
+  z-index: 5;
 }
 
-.nav .item ul li a:hover{
-    background-color: orange;
+.nav .logo {
+  float: left;
 }
+
+.nav .logo h3 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.nav .logo .logoName {
+  color: orange;
+}
+.nav .logo h3::first-letter {
+  padding: 0px 5px;
+  background-color: #696969;
+  border: 3px solid #fff;
+  font-size: 30px;
+}
+.nav .item {
+  float: right;
+}
+
+.nav .item ul {
+  list-style-type: none;
+}
+
+.nav .item ul li {
+  display: inline-block;
+}
+
+.nav .item ul li:not(:first-child) {
+  margin-left: 20px;
+}
+
+.nav .item ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  padding: 15px;
+}
+
+.nav .item ul li a:hover {
+  background-color: orange;
+}
+
 /* end nav css */
+
+/* start projects css */
+.projects {
+  padding: 60px 0 0 0;
+}
+
+.projects .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.projects .title {
+  text-align: center;
+  color: orange;
+}
+
+.projects .title span {
+  position: relative;
+  width: 110px;
+  height: 5px;
+  background-color: orange;
+  display: inline-block;
+  top: -5px;
+}
+.projects .project {
+  position: relative;
+  width: 30%;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 0px 4px #f6f6f6 inset;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+.projects .margin {
+  margin-right: 20px;
+}
+.projects .project img {
+  width: 100%;
+}
+
+.projects .project h3 {
+  color: #fff;
+}
+
+.projects .project .over-lay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  background-color: orange;
+  padding: 100px 0;
+  opacity: 0;
+  transition: all 1.5s linear;
+  -webkit-transition: all 1.5s linear;
+  -moz-transition: all 1.5s linear;
+  -ms-transition: all 1.5s linear;
+  -o-transition: all 1.5s linear;
+}
+
+.projects .project .over-lay:hover {
+  opacity: 0.9;
+}
+
+@media (min-width: 320px) and (max-width: 991px) {
+  .projects .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .projects .project .over-lay {
+    padding: 50px 0;
+  }
+  .projects .project {
+    width: 90%;
+  }
+  .projects .margin {
+    margin-right: 0px;
+  }
+}
+/* end projects css */
+
+/* start customer css */
+.customers {
+  background-color: #eee;
+  padding: 60px 0;
+}
+
+.customers .title {
+  text-align: center;
+  color: orange;
+}
+
+.customers .title span {
+  position: relative;
+  width: 110px;
+  height: 5px;
+  background-color: orange;
+  display: inline-block;
+  top: -5px;
+}
+
+.customers .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0 0 0;
+}
+
+.customers .container .customer {
+  text-align: center;
+  width: 30%;
+}
+
+.customers .container .customer img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: 1px solid orange;
+  margin-bottom: 25px;
+  opacity: 0.4;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+.customers .container .customer img:hover {
+  opacity: 1;
+}
+.customers .container .customer h2 {
+  margin-bottom: 25px;
+  color: #5300a9;
+}
+
+.customers .container .customer p {
+  width: 95%;
+  line-height: 30px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .customers .container {
+    flex-direction: column;
+  }
+
+  .customers .container .customer {
+    width: 65%;
+    margin-bottom: 20px;
+  }
+}
+/* end customer css */
+
+/* start responsive nav */
+.responsive {
+  position: fixed;
+  left: 0;
+  z-index: 6;
+  top: 200px;
+  display: none;
+}
+.responsive ul {
+  list-style-type: none;
+}
+
+.responsive ul li {
+  margin-bottom: 20px;
+}
+
+.responsive ul li a {
+  text-decoration: none;
+  background-color: #333;
+  color: #fff;
+  padding: 7px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-weight: bold;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.responsive ul li a:hover {
+  background-color: transparent;
+  color: orangered;
+}
+
+@media (min-width: 320px) and (max-width: 991px) {
+  .nav .item ul {
+    display: none;
+  }
+
+  .nav .logo {
+    float: none;
+    text-align: center;
+  }
+  .responsive {
+    display: block;
+  }
+}
+/* end responsive nav */

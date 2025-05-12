@@ -1,0 +1,36 @@
+@media screen and (min-width: 700px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+/****************************** breakpoints****************************************** */
+
+/* Extra small devices (600px and down) */
+@media screen and (max-width: 600px) {
+  div.example {
+    display: none;
+  }
+}
+
+/* Small devices ( portrait tablets, large phones (600px and up) */
+@media screen and (min-width: 600px) {
+}
+
+/* medium devices (landscape tablets 768px and up) */
+@media screen and (min-width: 768px) {
+}
+
+/* large devices (laptops, disktops 992px and up) */
+@media screen and (min-width: 992px) {
+}
+
+/* extra large devices (large laptops, disktops 1200px and up) */
+@media screen and (min-width: 1200px) {
+}
+
+@media screen and (orientation: landscape) {
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px), (min-width: 1100) {
+    
+}

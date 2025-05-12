@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .container{
+        width: fit-content;
+        margin: auto;
+        overflow: hidden;
+      }
+      div.gallery {
+        margin: 5px;
+        float: left;
+        border: 1px solid #ccc;
+        width: 23%;
+      }
+
+      div.gallery:hover {
+        border: 1px solid #777;
+      }
+      div.gallery img {
+        width: 100%;
+        height: auto;
+      }
+
+      div.desc {
+        padding: 15px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="gallery">
+        <a href="#" target="_blank">
+          <img src="images/img2.PNG" width="600" height="400" alt="" />
+        </a>
+        <div class="desc">Description of an image</div>
+      </div>
+      <div class="gallery">
+        <a href="#" target="_blank">
+          <img src="images/img2.PNG" width="600" height="400" alt="" />
+        </a>
+        <div class="desc">Description of an image</div>
+      </div>
+      <div class="gallery">
+        <a href="#" target="_blank">
+          <img src="images/img2.PNG" width="600" height="400" alt="" />
+        </a>
+        <div class="desc">Description of an image</div>
+      </div>
+      <div class="gallery">
+        <a href="#" target="_blank">
+          <img src="images/img2.PNG" width="600" height="400" alt="" />
+        </a>
+        <div class="desc">Description of an image</div>
+      </div>
+    </div>
+  </body>
+</html>
